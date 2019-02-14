@@ -21,13 +21,12 @@ attr_accessor :name, :artist, :genre
   end
 
 def self.genres
-   @@genres
-   @@genres2 = @@genres.uniq
+   @@genres.uniq
+
 end
 
 def self.artists
-  @@artists
-  @@artists2 = @@artists.uniq
+  @@artists.uniq
 end
 
 def self.genre_count
